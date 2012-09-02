@@ -1,0 +1,29 @@
+body {
+    width: 960px;
+    margin: 15px auto;
+    font-family: Arial, sans-serif;
+}
+
+fieldset {
+    width: 316px;
+}
+
+fieldset ol {
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+}
+
+fieldset ol li {
+    margin: 0 0 9px 0;
+    padding: 0;
+}
+
+fieldset input {
+    width: 100%;
+    display: block;
+}
+
+#output_text {
+    width: 340px;
+}
