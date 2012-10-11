@@ -644,9 +644,9 @@ var STOMP = (function (exports)
             {
                 // te[1] is 'charset=blah'. we want the 'blah' part.
                 var encodingParts = te[1].split('=');
-                if (encodingParts.length > 0)
+                if (encodingParts.length > 1)
                 {
-                    ce = encodingParts[0].trim().toLowerCase();
+                    ce = encodingParts[1].trim().toLowerCase();
                 }
             }
             if (te.length > 0)
